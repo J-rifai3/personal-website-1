@@ -1,18 +1,25 @@
+import ImageSlot from '../components/ImageSlot.jsx'
+import imagePaths from '../content/imagePaths.js'
+
 function HomePage() {
   return (
     <section className="page-card hero-page">
       <div>
         <p className="eyebrow">Welcome</p>
-        <h1>Building thoughtful digital work.</h1>
+        <h1>A helluva engineer.</h1>
         <p className="lead">
-          Use this space to introduce yourself and your craft. Highlight what you do
-          best and the type of work you are most excited to collaborate on.
+          Hello! I'm Jude Rifai, a mechanical engineer at Georgia Tech passionate about rocketry and aerospace.
         </p>
         <a className="resume-download" href="/resume.pdf" download>
           Download Resume
         </a>
       </div>
-      <div className="image-placeholder hero-image">Hero Image Placeholder</div>
+      <ImageSlot
+        src={imagePaths.homeHero}
+        alt="Portrait of you"
+        className="hero-image"
+        placeholderText="Add image: public/images/home-hero.jpg"
+      />
     </section>
   )
 }

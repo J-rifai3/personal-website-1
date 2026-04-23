@@ -1,23 +1,33 @@
+import ImageSlot from '../components/ImageSlot.jsx'
+import imagePaths from '../content/imagePaths.js'
+
 function AboutPage() {
   return (
     <section className="page-card">
       <p className="eyebrow">About</p>
       <h2>A little about me.</h2>
       <p className="lead">
-        Add your background, interests, and approach to work here. This section can
-        communicate your experience, values, and what sets you apart.
+        Originally from Chattanooga, TN, my passion for rocketry and aerospace was sparked by a love for space and the unknown.
+        Visiting the Kennedy Space Center in Florida during my high school years was a life-changing experience that solidified my desire to pursue a career in the aerospace industry.
+<br />
+<br />
+        Besides that, I love to climb, play guitar and piano, lift, and hang out with friends! I'm also a big fan of anime and movies.  
       </p>
       <div className="split-content">
-        <div className="image-placeholder">Portrait or Workspace Placeholder</div>
+        <ImageSlot
+          src={imagePaths.aboutPortrait}
+          alt="About section portrait"
+          placeholderText="Add image: public/images/about-portrait.jpg"
+        />
         <div className="detail-list">
           <p>
-            <strong>Focus:</strong> Product design, development, and storytelling.
+            <strong>Focus:</strong> Design, Analysis, and Testing
           </p>
           <p>
-            <strong>Approach:</strong> Simple, clear, and user-centered solutions.
+            <strong>Approach:</strong> Team-oriented and efficient problem-solving
           </p>
           <p>
-            <strong>Currently:</strong> Building projects with measurable outcomes.
+            <strong>Currently:</strong> Building YJSP's Fullscale Turbopumps
           </p>
         </div>
       </div>
