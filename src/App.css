@@ -93,6 +93,28 @@
   color: #3a5680;
 }
 
+.resume-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 0.62rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #224d84;
+  background: linear-gradient(145deg, #1f4f8e, #193f72);
+  color: #f3f8ff;
+  text-decoration: none;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+  box-shadow: 0 10px 20px rgba(20, 54, 98, 0.24);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.resume-download:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 24px rgba(20, 54, 98, 0.32);
+}
+
 .hero-page {
   display: grid;
   align-items: center;
