@@ -11,7 +11,7 @@ function AboutPage() {
         Visiting the Kennedy Space Center in Florida during my high school years was a life-changing experience that solidified my desire to pursue a career in the aerospace industry.
 <br />
 <br />
-        Besides that, I love to climb, play guitar and piano, lift, and hang out with friends! I'm also a big fan of anime and movies.  
+        Besides that, I love to climb, play guitar and piano, lift, and hang out with friends!
       </p>
       <div className="split-content">
         <ImageSlot
